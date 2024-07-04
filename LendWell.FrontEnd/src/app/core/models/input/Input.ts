@@ -6,6 +6,7 @@ export class Input implements IInput{
     Order: number;
     Required: boolean;
     IsInput: boolean;
+    Name: string;
 
     constructor(){
         this.Description = "";
@@ -13,7 +14,6 @@ export class Input implements IInput{
         this.Order = 0;
         this.Required = false;
         this.IsInput = false;
+        this.Name = "";
     }    
-    
-    
 }

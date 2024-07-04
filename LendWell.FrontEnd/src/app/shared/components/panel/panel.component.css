@@ -11,6 +11,10 @@
     flex-direction: column;
 }
 
+.form{
+    width: '100%';
+    display: 'flex'"
+}
 .grid {
     display: grid;
     grid-auto-flow: column;
