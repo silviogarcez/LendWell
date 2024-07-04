@@ -1,9 +1,15 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;    
+}
+
+.scroll{
+    min-height:100%;    
+    width: 100%;
     overflow-y:auto;
     overflow-x:auto;
+    position: absolute;
 }
 
 .panelcalculation {
