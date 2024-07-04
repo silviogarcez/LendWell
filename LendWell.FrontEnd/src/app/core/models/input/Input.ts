@@ -5,12 +5,15 @@ export class Input implements IInput{
     Value: any;
     Order: number;
     Required: boolean;
+    IsInput: boolean;
 
     constructor(){
         this.Description = "";
         this.Value = "";
         this.Order = 0;
         this.Required = false;
+        this.IsInput = false;
     }    
+    
     
 }

@@ -1,0 +1,33 @@
+<div class="header">
+    <mat-icon class="iconColor">close</mat-icon>
+</div>
+
+<div class="panelDesc">
+    <div class="submain">    
+        <app-tittle [tittle]="tittle" [subtittle]="subtittle"></app-tittle>    
+        <div class="panel">
+            <div class="panelFiller" >
+                <div class="tittle">Your Mortgage Calculation</div>
+                <div class="subtittle">Here we will give you an estimate of your repayments and you ability to borrow</div>
+                <div class="moneyPanel" >
+                    <div class="money blur" >{{bill}}</div><div class="moneydesc" >Per Month</div>
+                </div>            
+                <div class="squares">
+                    <div class="square">
+                        <div class="numberSquare blur">40</div>
+                        <div class="descriptionSquare">Years</div>                    
+                    </div>
+                    <div class="square">
+                        <div class="numberSquare blur">4.2x</div>
+                        <div class="descriptionSquare">Years</div>                    
+                    </div>
+                    <div class="square">
+                        <div class="numberSquare blur">87%</div>
+                        <div class="descriptionSquare">Loan</div>                    
+                    </div>
+                </div>
+            </div>        
+        </div>        
+    </div>
+    <app-barstage [stages]="stages"></app-barstage>
+</div>

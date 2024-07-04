@@ -1,9 +1,15 @@
-<div class="main" > 
-<app-header></app-header>
-<br>
-<div class="submain">
-<!-- <app-tittle [tittle]="tittle" [subtittle]="subtittle" ></app-tittle> -->
-<app-input *ngFor="let input of inputList" [values]="input"></app-input>
- 
-</div>
+
+
+<div class="main"> 
+    <app-header></app-header>
+    <div class="submain">
+        <app-tittle [tittle]="tittle" [subtittle]="subtittle" ></app-tittle>    
+        <div class="grid">
+            <app-input *ngFor="let input of inputList" placeholder="€" currencyInput maxDigits="9" [values]="input"></app-input> 
+            <!-- <input matInput type="text" mvndrMatCurrencyFormat  />  -->
+        </div>
+        <div>
+            <app-buttons></app-buttons>
+        </div>
+    </div>
 </div>

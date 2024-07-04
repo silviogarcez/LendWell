@@ -1,89 +1,24 @@
 .tittle {
-/* Your Mortgage */
-
-width: 211px;
-height: 23px;
-
-/* Heading 4 Book */
-font-family: 'NeuSans';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 150%;
-/* or 48px */
-/* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-leading-trim: both;
-text-edge: cap;
-display: flex;
-align-items: center;
-
-/* Grayscale 400 */
-color: #7A8499;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+    font-family: 'NeuSans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #7A8499;
 }
 
 .subtittle {    
- /* Calculate Your Mortgage */
-
-width: 720px;
-height: 23px;
-
-/* Heading 4 Book */
-font-family: 'NeuSans';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 150%;
-/* or 48px */
-/* leading-trim and text-edge are draft CSS properties.
-
-Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
-*/
-leading-trim: both;
-text-edge: cap;
-display: flex;
-align-items: center;
-
-/* Grayscale 700 */
-color: #363C4D;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
+    font-family: 'NeuSans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #363C4D;
 }
 
 .tittleHeader {
-/* Frame 585 */
-
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-
-width: 720px;
-height: 70px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
 }
 

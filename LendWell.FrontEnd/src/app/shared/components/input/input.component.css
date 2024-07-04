@@ -1,65 +1,41 @@
 .input{
-    /* Input > Currency */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 16px;
-gap: 10px;
-
-width: 336px;
-height: 52px;
-
-/* Grayscale 050 */
-background: #F8F9FB;
-border-radius: 8px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 1;
-
+    border-radius: 8px;
+    opacity: 0px;
+    background: #F8F9FB;
+    border: 1px solid #B8BECC;    
+    flex-grow: 1;
+    align-items: baseline;
+    padding: 16px;
+    font-family: 'NeuSans';
+    font-size: 16px;
 }
 
-.inputGroup {
-    /* Frame 561 */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-
-width: 336px;
-height: 88px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 1;
-
+.inputRequired{
+font-family: 'NeuSans';
+font-style: normal;
+font-size: 16px;
+color: #98A0B3;
 }
 
-.inputLabel {
-    /* Input Label */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 8px;
-
-width: 232px;
-height: 20px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+.iconSize{
+color: #98A0B3;
 }
+
+.containerLabel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;   
+    max-width: 80%;
+    
+}
+
+.containerInput{    
+    display: flex;
+    flex-direction: column;    
+    width: 336px;
+}
+
+.lineIntermediate{
+    line-height: 30%;
+}
+

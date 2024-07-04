@@ -1,1 +1,10 @@
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'NeuSans';
+    src: url(/src/assets/fonts/Neo\ Sans\ Std\ Regular.otf) format('opentype');
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

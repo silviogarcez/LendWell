@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-y:auto;
+    overflow-x:auto;
+}
+
+.panelcalculation {
+    width: 600px;    
+    gap: 0px;
+    opacity: 0px;
+    background: #F3F7FF;
+}
+

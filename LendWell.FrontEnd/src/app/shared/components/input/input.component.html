@@ -1,5 +1,16 @@
-<label>{{values?.Description}}</label>
-<input  value="{{values?.Value}}"/>
-<!-- <select >
-    <option *ngFor="let value of values?.Value">{{value}}</option>
-</select> -->
+<div class="containerInput" >
+    <div class="containerLabel"> 
+        <mat-icon class="iconSize">help</mat-icon>
+        <div>{{values?.Description}}</div>
+        <label *ngIf="values?.Required" class="inputRequired">Required</label>    
+        <label *ngIf="!values?.Required" class="inputRequired">Optional</label>    
+    </div>
+    <div class="lineIntermediate">&nbsp;</div>
+    
+    <input *ngIf="values?.IsInput" class="input" value="{{values?.Value | currency:'EUR':'symbol'}}"/>
+    
+    
+    <select *ngIf="!values?.IsInput" class="input">
+        <option *ngFor="let value of values?.Value">{{value}}</option>
+    </select>
+</div>

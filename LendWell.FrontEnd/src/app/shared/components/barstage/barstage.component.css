@@ -1,0 +1,22 @@
+.barActive{
+    background: #0131F5;    
+    border-radius: 10px 10px 10px 10px;        
+    min-height: 60px;    
+}
+
+.barInactive{
+    background: #FFFFFF;    
+    border-radius: 10px 10px 10px 10px;        
+    min-height: 60px;    
+}
+
+.barStage{
+    width: 8px;
+    margin-right: 30px;
+    gap: 12px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;          
+}
