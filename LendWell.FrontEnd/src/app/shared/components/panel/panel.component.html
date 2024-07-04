@@ -2,6 +2,8 @@
 <app-header></app-header>
 <br>
 <div class="submain">
-<app-tittle [tittle]="tittle" [subtittle]="subtittle" ></app-tittle>
+<!-- <app-tittle [tittle]="tittle" [subtittle]="subtittle" ></app-tittle> -->
+<app-input *ngFor="let input of inputList" [values]="input"></app-input>
+ 
 </div>
 </div>
