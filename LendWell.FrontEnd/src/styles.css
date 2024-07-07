@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'NeuSans';
-    src: url(/src/assets/fonts/Neo\ Sans\ Std\ Regular.otf) format('opentype');
+    src: url(assets/fonts/NeoSansStdRegular.otf) format('opentype');
 }
 
 html, body { height: 100%; }

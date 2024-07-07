@@ -14,15 +14,17 @@ import { NgxCurrencyDirective } from 'ngx-currency'
 })
 export class InputComponent {
 
-  @Input() values: IInput | undefined;
+  @Input() values: IInput | undefined;  
   value: any;
   
   control:FormControl
+  
+
   @Input('control') set _control(value: FormControl){
       this.control=value as FormControl
   }
   
   constructor(){
-    this.control = new FormControl();
+    this.control = new FormControl();    
   }
 }

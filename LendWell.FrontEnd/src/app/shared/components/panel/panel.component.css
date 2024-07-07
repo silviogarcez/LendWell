@@ -23,3 +23,60 @@
     grid-template-columns: 350px 350px;
     padding: 10px;
   }  
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 24px 12px;
+    gap: 10px;  
+}
+
+.buttonBack{
+width: 117px;
+height: 52px;
+background: #E6EDFF;
+border-radius: 40px;
+border-style: none;
+flex: none;
+order: 0;
+flex-grow: 0;
+font-family: 'NeuSans';
+font-size: 18px;
+font-weight: 500;
+line-height: 28.8px;
+text-align: center;
+color: #014DFF;
+transition-property: transform;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+transition-delay: 0s;
+}
+
+.buttonNext {
+width: 129px;
+height: 52px;
+background: #014DFF;
+border-style: none;
+border-radius: 40px;
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: 'NeuSans';
+font-size: 18px;
+font-weight: 500;
+line-height: 28.8px;
+text-align: center;
+color: #FFFFFF;
+transition-property: transform;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+transition-delay: 0s;
+}
+
+.btn:hover{
+    transform: translateY(-10px);
+}
+
+

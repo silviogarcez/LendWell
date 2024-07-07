@@ -7,7 +7,7 @@
         {
             @if (control.errors?.['required'])
             {
-                <label *ngIf="values?.Required" class="inputRequired" style="color: red;">Required</label>       
+                <label *ngIf="values?.Required" class="inputRequired" style="color: red;" ee>Required</label>       
             }            
         }
         @else
@@ -18,7 +18,7 @@
         <label *ngIf="!values?.Required" class="inputRequired">Optional</label>    
     </div>
     <div class="lineIntermediate">&nbsp;</div>    
-    <input *ngIf="values?.IsInput" class="input" placeholder="€" [currencyMask]="{ prefix: '€ ', thousands: ',', decimal: '.', align: 'left' }" min="1" [formControl]="control" [(ngModel)]="value" ngDefaultControl  />    
+    <input *ngIf="values?.IsInput" class="input" placeholder="€" [currencyMask]="{ prefix: '€ ', thousands: ',', decimal: '.', align: 'left' }" min="1" [formControl]="control" [(ngModel)]="value" ngDefaultControl/>
     <select *ngIf="!values?.IsInput" class="input" [formControl]="control">
         <option class="input" *ngFor="let value of values?.Value">{{value}}</option>
     </select>

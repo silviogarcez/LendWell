@@ -1,12 +1,12 @@
 export interface IMortgage {
     
     Id : number;
-    PurchasePrice : number;
-    BorrowingAmount : number;
-    DepositAmout : number;
-    RepaymentPeriod : number;
-    TotalHouseHoldIncome : number;
-    AdditionalFunding? : number;
+    PurchasePrice : string;
+    BorrowingAmount : string;
+    DepositAmout : string;
+    RepaymentPeriod : string;
+    TotalHouseHoldIncome : string;
+    AdditionalFunding? : string;
      
      isValid: () => string;
 }

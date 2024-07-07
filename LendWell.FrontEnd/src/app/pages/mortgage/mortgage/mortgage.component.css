@@ -4,12 +4,9 @@
     justify-content: center;    
 }
 
-.scroll{
-    min-height:100%;    
-    width: 100%;
+.scroll{    
     overflow-y:auto;
     overflow-x:auto;
-    position: absolute;
 }
 
 .panelcalculation {
